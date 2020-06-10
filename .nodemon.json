@@ -1,0 +1,11 @@
+{
+    "verbose": false,
+    "ext": "mjs,js,json",
+    "ignore": [
+    ],
+    "watch": [
+        "../jijejo-spec/tests/jijejo.utils.test.json",
+        "src/**/*.mjs",
+        "test/**/*.mjs"
+    ]
+}

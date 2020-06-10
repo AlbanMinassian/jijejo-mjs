@@ -1,0 +1,53 @@
+{
+    "name": "jijejo-node",
+    "author": {
+        "name": "Alban Minassian",
+        "email": "alban.minassian@free.fr",
+        "url": "https://twitter.com/AlbanMinassian"
+    },
+    "description": "jijejo utils for node",
+    "license": "MIT",
+    "private": false,
+    "version": "1.0.0",
+    "type": "module",
+    "main": "build/index.mjs",
+    "scripts": {
+        "check": "hegel",
+        "check_watch": "./node_modules/.bin/nodemon --config ./.nodemon.json --exec npm run check",
+        "build": "npm run check && ./node_modules/.bin/babel src/ --out-dir build/ --keep-file-extension",
+        "build_watch": "./node_modules/.bin/nodemon --config ./.nodemon.json --exec npm run build",
+        "test": "npm run build && node node_modules/mocha/bin/_mocha",
+        "test_watch": "./node_modules/.bin/nodemon --config ./.nodemon.json --exec npm run test",
+        "coverage": "npm run build && node_modules/c8/bin/c8.js --all node node_modules/mocha/bin/_mocha",
+        "coverage_watch": "./node_modules/.bin/nodemon  --config ./.nodemon.json --exec npm run coverage"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AlbanMinassian/jijejo-node"
+    },
+    "keywords": [
+        "jijejo",
+        "utils"
+    ],
+    "bugs": {
+        "url": "https://github.com/AlbanMinassian/jijejo-node/issues"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/cli": "7.10.1",
+        "@babel/core": "7.10.2",
+        "@babel/preset-flow": "7.10.1",
+        "@hegel/cli": "0.0.43",
+        "c8": "7.1.2",
+        "chai": "4.2.0",
+        "jijejo-spec": "1.0.0",
+        "mocha": "7.2.0",
+        "nodemon": "2.0.4"
+    },
+    "engines": {
+        "node": "14.4.0"
+    },
+    "volta": {
+        "node": "14.4.0"
+    }
+}

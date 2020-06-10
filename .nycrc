@@ -1,0 +1,16 @@
+{
+    "include": [
+        "build/**/*.mjs"
+    ],
+    "extension": [
+        ".mjs"
+    ],
+    "exclude": [
+        "**/test"
+    ],
+    "reporter": [
+        "text-summary",
+        "html"
+    ],
+    "all": true
+}
