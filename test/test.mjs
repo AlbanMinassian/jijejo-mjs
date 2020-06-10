@@ -11,8 +11,8 @@ const expect = chai.expect;
 
 describe('jijejo-node', function() {
 
-    const result_functions = Object.keys(jijejo_node);
-    console.log(result_functions)
+    const result_object_keys = Object.keys(jijejo_node);
+    expect(result_object_keys).to.have.members(["jsonin", "jsonerr", "jsonout"]);
 
 });
 
