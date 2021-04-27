@@ -1,6 +1,8 @@
-import is_object from './is_object.mjs'
+// deno-lint-ignore-file camelcase
 
-export default function jsonerr(optin: unknown, meta: Object = {}, options: Object = {})  {
+import is_object from './is_object.mjs';
+
+export default function jsonerr(optin, meta = {}/*, options = {}*/)  {
 
     // ----------------------------------------------------------------------------
     // no param
@@ -10,7 +12,7 @@ export default function jsonerr(optin: unknown, meta: Object = {}, options: Obje
     // ----------------------------------------------------------------------------
     // meta is not an object
     // ----------------------------------------------------------------------------
-    if (is_object(meta) === false) { throw new Error("meta is not an object") }
+    if (is_object(meta) === false) { throw new Error("meta is not an object"); }
 
     // ----------------------------------------------------------------------------
     // ok

@@ -1,7 +1,8 @@
-import jsonerr from './jsonerr.mjs'
-import is_object from './is_object.mjs'
+// deno-lint-ignore-file camelcase
 
-export default function jsonin(optin: unknown, meta: Object = {}, options: Object = {})  {
+import is_object from './is_object.mjs';
+
+export default function jsonin(optin, meta = {}/*, options = {}*/)  {
 
     // ----------------------------------------------------------------------------
     // no param

@@ -2,7 +2,7 @@
 // const __dirname = path.dirname(import.meta.url).replace("file://", "");
 
 import jijejo_spec from 'jijejo-spec'
-import { jsonin, jsonerr, jsonout, jicheck, jecheck, jocheck } from '../build/index.mjs';
+import { jsonin, jsonerr, jsonout, jicheck, jecheck, jocheck } from '../src/index.mjs';
 import { default as chai } from 'chai';
 const expect = chai.expect;
 

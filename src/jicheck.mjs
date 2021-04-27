@@ -1,9 +1,11 @@
-import jsonerr from './jsonerr.mjs'
-import jsonout from './jsonout.mjs'
-import is_object from './is_object.mjs'
-const allow_keys = ["meta", "in"]
+// deno-lint-ignore-file camelcase
 
-export default function jicheck(optin: unknown, options: Object = {})  {
+import jsonerr from './jsonerr.mjs';
+import jsonout from './jsonout.mjs';
+import is_object from './is_object.mjs';
+const allow_keys = ["meta", "in"];
+
+export default function jicheck(optin/*, options = {}*/)  {
 
     // ----------------------------------------------------------------------------
     // no param
@@ -18,9 +20,9 @@ export default function jicheck(optin: unknown, options: Object = {})  {
     // ----------------------------------------------------------------------------
     // check attributs
     // ----------------------------------------------------------------------------
-    if (optin.hasOwnProperty("meta") === false) { return jsonerr({message: `missing .meta attribut`})}
+    if (Object.prototype.hasOwnProperty.call(optin, "meta") === false) { return jsonerr({message: `missing .meta attribut`})}
     if (is_object(optin.meta) === false) { return jsonerr({message: `.meta attribut is not an object`})}
-    if (optin.hasOwnProperty("in") === false) { return jsonerr({message: `missing .in attribut`})}
+    if (Object.prototype.hasOwnProperty.call(optin, "in") === false) { return jsonerr({message: `missing .in attribut`})}
 
     // ----------------------------------------------------------------------------
     // check unknow attributes

@@ -1,8 +1,10 @@
 # README
 
-jijejo-node is the core code used by [jijejo](https://github.com/AlbanMinassian/jijejo) package.
+Implementation of [jijejo](https://github.com/AlbanMinassian/jijejo-spec) specifications.
 
-jijejo-node coverage all tests of jijejo-spec : [https://github.com/AlbanMinassian/jijejo-spec/blob/master/test/features/jijeo.utils.feature](https://github.com/AlbanMinassian/jijejo-spec/blob/master/test/features/jijeo.utils.feature)
+Coverage all features of jijejo-spec : [https://github.com/AlbanMinassian/jijejo-spec/blob/master/test/features/jijeo.utils.feature](https://github.com/AlbanMinassian/jijejo-spec/blob/master/test/features/jijeo.utils.feature)
+
+jijejo-node is the core used by [jijejo](https://github.com/AlbanMinassian/jijejo) package.
 
 ## install
 
