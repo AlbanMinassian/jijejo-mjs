@@ -17,3 +17,7 @@ npm install jijejo-node
 ```js
 import { jsonin, jsonerr, jsonout, jicheck, jecheck, jocheck } from 'jijejo-node';
 ```
+
+## license
+
+MIT
