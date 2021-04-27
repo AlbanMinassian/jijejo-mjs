@@ -1,6 +1,6 @@
 {
     "include": [
-        "build/**/*.mjs"
+        "src/**/*.mjs"
     ],
     "extension": [
         ".mjs"
