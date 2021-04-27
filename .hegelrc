@@ -1,9 +1,0 @@
-environment: nodejs
-exclude:
-  - ./test/**
-  - ./build/**
-  - ./coverage/**
-  - ./node_modules/**
-types:
-  - ./@types
-  - ./node_modules/@types
