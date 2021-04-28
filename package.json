@@ -5,7 +5,7 @@
         "email": "alban.minassian@free.fr",
         "url": "https://twitter.com/AlbanMinassian"
     },
-    "description": "node implementation of jijejo specifications",
+    "description": "javascript implementation of jijejo specifications https://github.com/AlbanMinassian/jijejo-spec",
     "license": "MIT",
     "private": false,
     "version": "1.0.3",
@@ -13,9 +13,9 @@
     "main": "src/index.mjs",
     "scripts": {
         "test": "NODE_ENV=test node node_modules/mocha/bin/_mocha",
-        "test_watch": "./node_modules/.bin/nodemon --config ./.nodemon.json --exec npm run test",
+        "test:watch": "./node_modules/.bin/nodemon --config ./.nodemon.json --exec npm run test",
         "coverage": "NODE_ENV=test node_modules/c8/bin/c8.js --all node node_modules/mocha/bin/_mocha",
-        "coverage_watch": "./node_modules/.bin/nodemon  --config ./.nodemon.json --exec npm run coverage",
+        "coverage:watch": "./node_modules/.bin/nodemon  --config ./.nodemon.json --exec npm run coverage",
         "lint:rslint": "rslint_cli src",
         "lint:deno": "deno lint --unstable src",
         "lint": "npm run lint:deno && npm run lint:rslint"
@@ -34,15 +34,12 @@
     "devDependencies": {
         "c8": "7.1.2",
         "chai": "4.2.0",
-        "jijejo-spec": "1.0.1",
+        "jijejo-spec": "1.0.2",
         "mocha": "7.2.0",
         "nodemon": "2.0.4"
     },
     "engines": {
-        "node": "14.15.1",
+        "node": ">=14.15.1",
         "npm": ">=7.1.1"
-    },
-    "volta": {
-        "node": "14.15.1"
     }
 }
