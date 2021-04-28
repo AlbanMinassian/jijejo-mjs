@@ -4,3 +4,9 @@ node_js:
   - "15"
   - "lts/*"
   - "node"
+
+install:
+  - gem install coveralls-lcov
+
+after_success:
+  - npm run coverage && coveralls-lcov coverage/lcov.info

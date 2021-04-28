@@ -14,7 +14,7 @@
     "scripts": {
         "test": "NODE_ENV=test node node_modules/mocha/bin/_mocha",
         "test:watch": "./node_modules/.bin/nodemon --config ./.nodemon.json --exec npm run test",
-        "coverage": "NODE_ENV=test node_modules/c8/bin/c8.js --all node node_modules/mocha/bin/_mocha",
+        "coverage": "NODE_ENV=test node_modules/c8/bin/c8.js --reporter=lcov --all node node_modules/mocha/bin/_mocha",
         "coverage:watch": "./node_modules/.bin/nodemon  --config ./.nodemon.json --exec npm run coverage",
         "lint:rslint": "rslint_cli src",
         "lint:deno": "deno lint --unstable src",
