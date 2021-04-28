@@ -5,6 +5,9 @@ node_js:
   - "lts/*"
   - "node"
 
+before_install:
+  - npm i -g npm@7
+
 install:
   - gem install coveralls-lcov
   - npm install
