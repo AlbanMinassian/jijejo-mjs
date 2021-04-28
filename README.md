@@ -1,6 +1,6 @@
 # README
 
-[![Build Status](https://secure.travis-ci.org/AlbanMinassian/jijejo-node.png)](http://travis-ci.org/AlbanMinassian/jijejo-node)
+[![Build Status](https://travis-ci.com/AlbanMinassian/jijejo-node.svg?branch=master)](https://travis-ci.com/AlbanMinassian/jijejo-node)
 
 [jijejo-node](https://github.com/AlbanMinassian/jijejo-node) is a javascript implementation of [jijejo-spec](https://github.com/AlbanMinassian/jijejo-spec) specifications.
 
