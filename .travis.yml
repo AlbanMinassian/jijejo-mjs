@@ -6,11 +6,9 @@ node_js:
   - "node"
 
 before_install:
-  - npm i -g npm@7
-
-install:
   - gem install coveralls-lcov
-  - npm install
+  - npm i -g npm@7
+  - npm i -g codecov
 
 after_success:
-  - npm run coverage && coveralls-lcov coverage/lcov.info
+  - npm run coverage && codecov && coveralls-lcov coverage/lcov.info
