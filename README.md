@@ -1,7 +1,8 @@
 # README
 
 [![Build Status](https://travis-ci.com/AlbanMinassian/jijejo-node.svg?branch=master)](https://travis-ci.com/AlbanMinassian/jijejo-node)
-[![Coverage Status](https://coveralls.io/repos/github/AlbanMinassian/jijejo-node/badge.svg?branch=master)](https://coveralls.io/github/AlbanMinassian/jijejo-node?branch=master)
+<!--[![Coverage Status](https://coveralls.io/repos/github/AlbanMinassian/jijejo-node/badge.svg?branch=master)](https://coveralls.io/github/AlbanMinassian/jijejo-node?branch=master)-->
+[![codecov](https://codecov.io/gh/AlbanMinassian/jijejo-node/branch/master/graph/badge.svg?token=421AOGKHC3)](https://codecov.io/gh/AlbanMinassian/jijejo-node)
 
 [jijejo-node](https://github.com/AlbanMinassian/jijejo-node) is a javascript implementation of [jijejo-spec](https://github.com/AlbanMinassian/jijejo-spec) specifications.
 
