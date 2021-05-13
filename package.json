@@ -34,7 +34,7 @@
     "devDependencies": {
         "c8": "7.1.2",
         "chai": "4.2.0",
-        "jijejo-spec": "1.0.4",
+        "jijejo-spec": "1.0.5",
         "mocha": "7.2.0",
         "nodemon": "2.0.4"
     },
