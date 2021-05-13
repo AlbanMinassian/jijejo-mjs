@@ -8,7 +8,7 @@
     "description": "javascript implementation of jijejo specifications https://github.com/AlbanMinassian/jijejo-spec",
     "license": "MIT",
     "private": false,
-    "version": "1.0.5",
+    "version": "1.0.6",
     "type": "module",
     "main": "src/index.mjs",
     "scripts": {
@@ -34,7 +34,7 @@
     "devDependencies": {
         "c8": "7.1.2",
         "chai": "4.2.0",
-        "jijejo-spec": "1.0.2",
+        "jijejo-spec": "1.0.4",
         "mocha": "7.2.0",
         "nodemon": "2.0.4"
     },

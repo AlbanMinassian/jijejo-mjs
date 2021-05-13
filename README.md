@@ -4,14 +4,11 @@
 <!--[![Coverage Status](https://coveralls.io/repos/github/AlbanMinassian/jijejo-node/badge.svg?branch=master)](https://coveralls.io/github/AlbanMinassian/jijejo-node?branch=master)-->
 [![codecov](https://codecov.io/gh/AlbanMinassian/jijejo-node/branch/master/graph/badge.svg?token=421AOGKHC3)](https://codecov.io/gh/AlbanMinassian/jijejo-node)
 
-[jijejo-node](https://github.com/AlbanMinassian/jijejo-node) is a javascript implementation of [jijejo-spec](https://github.com/AlbanMinassian/jijejo-spec) specifications.
-
+[jijejo-node](https://github.com/AlbanMinassian/jijejo-node) is a collection of functions to create and validate json compliant with [jijejo-spec/functions.md](https://github.com/AlbanMinassian/jijejo-spec/blob/master/functions.md) specifications.
 
 Jijejo is a universal and easy api for all yours applications or libraries. Jijejo is a human and light alternative of [json:api](https://jsonapi.org/), [json-ld](https://json-ld.org/), [hal](http://stateless.co/hal_specification.html), [OpenAPI](https://swagger.io/specification/), [GraphQL](https://graphql.org/), [joi](https://github.com/hapijs/joi), [zod](https://github.com/vriad/zod), [yup](https://github.com/jquense/yup), [hydra](http://www.markus-lanthaler.com/hydra/) ... Back to basics to get ahead in your business. Read more by visiting [jijejo-spec](https://github.com/AlbanMinassian/jijejo-spec).
 
 jijejo = (**j**)son (**i**)n + (**j**)son (**e**)rr + (**j**)son (**o**)ut
-
-jijejo-node is the core used by [jijejo](https://github.com/AlbanMinassian/jijejo) package.
 
 ## install
 
@@ -26,7 +23,7 @@ import { jsonin, jsonerr, jsonout, jicheck, jecheck, jocheck } from 'jijejo-node
 ```
 
 
-## about jijejo
+## functions
 
 ### creates
 
