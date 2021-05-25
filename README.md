@@ -10,6 +10,8 @@ Jijejo is a universal and easy api for all yours applications or libraries. Jije
 
 jijejo = (**j**)son (**i**)n + (**j**)son (**e**)rr + (**j**)son (**o**)ut
 
+[![jijejo-spec](https://raw.githubusercontent.com/AlbanMinassian/jijejo-spec/HEAD/assets/svg/draft.png)](https://github.com/AlbanMinassian/jijejo-spec)
+
 ## install
 
 ```bash
@@ -32,8 +34,8 @@ import { jsonin, jsonerr, jsonout, jicheck, jecheck, jocheck } from 'jijejo-node
 function to create jsonin.
 
 ```js
-jsonin({"hello", "in"}) // return { meta:{}, in: {"hello", "in"}}
-jsonin({"hello", "in"}, {"hello", "meta"}) // return { meta:{"hello", "meta"}, in: {"hello", "in"}}
+jsonin({"hello": "in"}) // return { meta:{}, in: {"hello": "in"}}
+jsonin({"hello": "in"}, {"hello": "meta"}) // return { meta:{"hello": "meta"}, in: {"hello": "in"}}
 ```
 
 #### jsonerr
@@ -41,8 +43,8 @@ jsonin({"hello", "in"}, {"hello", "meta"}) // return { meta:{"hello", "meta"}, i
 function to create jsonerr.
 
 ```js
-jsonerr({"hello", "err"}) // return { meta:{}, iserr: true, isout: false, err: {"hello", "err"}}
-jsonerr({"hello", "err"}, {"hello", "meta"}) // return { meta:{"hello", "meta"}, iserr: true, isout: false, out: {"hello", "err"}}
+jsonerr({"hello": "err"}) // return { meta:{}, iserr: true, isout: false, err: {"hello": "err"}}
+jsonerr({"hello": "err"}, {"hello": "meta"}) // return { meta:{"hello": "meta"}, iserr: true, isout: false, out: {"hello": "err"}}
 ```
 
 #### jsonout
@@ -50,8 +52,8 @@ jsonerr({"hello", "err"}, {"hello", "meta"}) // return { meta:{"hello", "meta"},
 function to create jsonout.
 
 ```js
-jsonout({"hello", "out"}) // return { meta:{}, iserr: false, isout: true, out: {"hello", "out"}}
-jsonout({"hello", "out"}, {"hello", "meta"}) // return { meta:{"hello", "meta"}, iserr: false, isout: true, out: {"hello", "out"}}
+jsonout({"hello": "out"}) // return { meta:{}, iserr: false, isout: true, out: {"hello": "out"}}
+jsonout({"hello": "out"}, {"hello": "meta"}) // return { meta:{"hello": "meta"}, iserr: false, isout: true, out: {"hello": "out"}}
 ```
 
 ### checks

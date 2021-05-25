@@ -8,7 +8,7 @@
     "description": "javascript implementation of jijejo specifications https://github.com/AlbanMinassian/jijejo-spec",
     "license": "MIT",
     "private": false,
-    "version": "1.0.7",
+    "version": "1.0.8",
     "type": "module",
     "main": "src/index.mjs",
     "scripts": {
